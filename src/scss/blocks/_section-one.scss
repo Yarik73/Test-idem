@@ -8,7 +8,7 @@
 
 .section-one__left {
   width: 66%;
-  margin-right: 10px;
+  margin-right: 0.7rem;
 }
 
 .section-one__right {
@@ -20,14 +20,20 @@
   align-items: flex-end;
   width: 100%;
   background-color: #A2A9B7;
-  padding: 15px;
-  margin-bottom: 10px;
+  padding: 1.07rem;
+  margin-bottom: 0.71rem;
+
+  &:before {
+    content: "";
+    padding-top: 100%;
+    float: left;
+  }
 
   &--genius {
     width: 100%;
     align-items: flex-start;
-    padding: 30px 39px;
-    overflow: scroll;
+    padding: 2.97rem 2.78rem;
+    margin: auto;
 
     &:before {
       content: "";
@@ -38,8 +44,8 @@
 }
 
 .section-one__text {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 1.28rem;
+  line-height: 1.85rem;
   text-align: center;
 }
 
