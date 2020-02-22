@@ -1,0 +1,49 @@
+.section-two {
+  order: 2;
+}
+
+.section-two__wrap {
+  display: flex;
+}
+
+.section-two__left {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 492px;
+  margin-right: 10px;
+}
+
+.section-two__right {
+  flex-grow: 1;
+}
+
+.section-two__item {
+  display: flex;
+  align-items: flex-end;
+  width: calc(50% - 5px);
+  min-height: 155px;
+  background-color: #E8EBED;
+  padding: 15px;
+  margin-bottom: 10px;
+
+  &--Conformism {
+    width: 100%;
+  }
+
+  &--Introjection {
+    width: 100%;
+    background-color: #90BCE8;
+  }
+  
+  &--staff {
+    width: 100%;
+    background-color: #FEBF26;
+  }
+}
+
+.section-two__title {
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}

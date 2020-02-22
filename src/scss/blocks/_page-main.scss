@@ -1,0 +1,7 @@
+.page-main__wrap {
+  @include container();
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  background-color: #fff;
+}

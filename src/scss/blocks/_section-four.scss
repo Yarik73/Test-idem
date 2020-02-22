@@ -1,0 +1,37 @@
+.section-four {
+  order: 4;
+}
+
+.section-four__wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section-four__item {
+  display: flex;
+  align-items: flex-end;
+  width: calc(33% - 5px);
+  min-height: 155px;
+  background-color: #FFAA87;
+  padding: 15px;
+  margin-top: 10px;
+
+  &--however {
+    width: calc(66.6666% - 2px);
+  }
+
+  &--genius {
+    background-color: #F55E62;
+  }
+
+  &--length {
+    background-color: #C7ABD4;
+  }
+}
+
+.section-four__title {
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
