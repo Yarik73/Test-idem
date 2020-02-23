@@ -77,15 +77,12 @@
 .section-three__item-wrap {
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
   margin-bottom: 30px;
-}
-
-.section-three__border {
-  position: relative;
-  flex-grow: 1;
-  top: -3px;
-  margin: 0 10px;
-  border-bottom: 1px dashed #000000;
+  background-image: linear-gradient(to right, #333 40%, rgba(255, 255, 255, 0) 20%);
+  background-position: bottom;
+  background-size: 5px 1px;
+  background-repeat: repeat-x;
 }
 
 .section-three__text-end {
