@@ -4,8 +4,12 @@
 
 .section-four__wrap {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media (max-width: $tablets) {
+    margin-bottom: 10px;
+  }
 }
 
 .section-four__item {
@@ -17,16 +21,57 @@
   padding: 15px;
   margin-top: 10px;
 
+  @media (max-width: $tablets) {
+    width: calc(50% - 5px);
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &--leadership {
+    order: 1;
+
+    @media (max-width: $tablets) {
+      order: 4;
+    }
+  }
+
   &--however {
-    width: calc(66.6666% - 2px);
+    order: 2;
+    width: 66.3%;
+    margin-right: 0;
+
+    @media (max-width: $tablets) {
+      order: 1;
+      width: 100%;
+    }
   }
 
   &--genius {
+    order: 3;
     background-color: #F55E62;
+
+    @media (max-width: $tablets) {
+      order: 5;
+    }
+  }
+
+  &--point {
+    order: 4;
+
+    @media (max-width: $tablets) {
+      order: 2;
+    }
   }
 
   &--length {
+    order: 5;
     background-color: #C7ABD4;
+
+    @media (max-width: $tablets) {
+      order: 3;
+    }
   }
 }
 

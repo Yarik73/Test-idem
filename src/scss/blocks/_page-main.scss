@@ -4,4 +4,8 @@
   flex-direction: column;
   padding: 0.85rem;
   background-color: #fff;
+
+  @media (max-width: $tablets) {
+    padding: 0;
+  }
 }
