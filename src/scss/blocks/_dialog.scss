@@ -80,12 +80,12 @@
   position: relative;
   margin: 30px -15px;
   text-align: center;
-  background-image: linear-gradient(to right, #DBDBDB 100%, rgba(255,255,255,0) 0%);
-  background-position: center bottom 12px;
-  background-size: 5px 1px;
-  background-repeat: repeat-x;
 }
 
-.dialog__data {
-  position: relative;
+.dialog__border {
+  position: absolute;
+  top: 11px;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #DBDBDB;
 }
