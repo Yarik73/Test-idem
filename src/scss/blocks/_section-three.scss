@@ -79,8 +79,8 @@
   align-items: flex-end;
   justify-content: space-between;
   margin-bottom: 30px;
-  background-image: linear-gradient(to right, #333 40%, rgba(255, 255, 255, 0) 20%);
-  background-position: bottom;
+  background-image: linear-gradient(to right, black 33%, rgba(255,255,255,0) 0%);
+  background-position: center bottom 3px;
   background-size: 5px 1px;
   background-repeat: repeat-x;
 }
@@ -89,6 +89,6 @@
   text-align: end;
 }
 
-span {
-  display: block;
+.section-three__bg {
+  background-color: #E3EBD3;
 }
