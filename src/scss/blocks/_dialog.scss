@@ -6,17 +6,15 @@
   color: #000000;
   background-color: #fff;
   margin: 50px auto;
-  padding: 46px 165px 80px;
 }
 
 .dialog__wrap {
   max-width: 651px;
   width: 100%;
+  margin: 0 auto;
   padding: 40px 20px 40px 15px;
   background: url("../img/image.jpg") no-repeat center;
   background-size: cover;
-//  test
-  min-height: 800px;
 }
 
 .dialog__content {
